@@ -1,0 +1,87 @@
+html body{
+    font-size: 18px;
+    /*color*/
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    /*(graphic design text)*/
+    --Dark-desaturated-cyan : hsl(167, 40%, 24%);
+    /*(photography text)*/
+    --Dark-blue: hsl(198, 62%, 26%);
+    /*(footer)*/
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+
+}
+.header{
+    background: url(../images/mobile/image-header.jpg) center center/cover;
+    height: 535px;
+}
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 6rem;
+    flex-direction: column;
+    background-color: var(--White);
+    width: 93.5%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+}
+.nav-menu:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 0 37px 29px;
+    border-color: transparent transparent white transparent;
+    top: -30px;
+    right: 0;
+    margin-left: -11px;
+}
+.navbar {
+    
+    padding: 1rem 1.5rem;
+}
+
+.nav-menu.active {
+    left: auto;
+}
+
+.nav-item {
+    margin: 1.5rem 0;
+}
+
+.hamburger {
+    
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+.nav-link{
+    color: var(--Grayish-blue);
+}
+
+.nav-logo{
+    font-size: 2rem;
+}
+.button{
+    background-color:#fbd601;
+}
