@@ -97,11 +97,11 @@ html body{
 
 
 .brand{
-    height: 400px;
+    height: 450px;
 }
 
 .brand-content-img img{
-    height: 400px;
+    height: 450px;
 }
 
 .brand-content-text h2{
@@ -117,12 +117,12 @@ html body{
 
 .audience{
     flex-direction: row;
-    height: 400px;
+    height: 450px;
     margin-right: none;
     
 }
 .audience-content-img img{
-    height: 400px;
+    height: 450px;
 }
 .audience-content-text p{
     line-height: 2rem;
@@ -146,3 +146,6 @@ html body{
     border-radius: 10px;
 }
 
+.container{
+    height: 440px;
+}
