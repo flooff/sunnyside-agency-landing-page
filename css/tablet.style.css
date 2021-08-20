@@ -94,3 +94,55 @@ html body{
 .arrow,img{
     height: 105px;
 }
+
+
+.brand{
+    height: 400px;
+}
+
+.brand-content-img img{
+    height: 400px;
+}
+
+.brand-content-text h2{
+    font-size: 2.5rem;
+}
+.brand-content-text p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/*audience*/
+
+.audience{
+    flex-direction: row;
+    height: 400px;
+    margin-right: none;
+    
+}
+.audience-content-img img{
+    height: 400px;
+}
+.audience-content-text p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+.audience-content-text h2{
+    font-size: 2.3rem;
+    margin-top: 5px;
+}
+
+.yellow-border{
+    background-color: yellow;
+    width: 34%;
+    height: 10px;
+    align-self: flex-start;
+    margin-left: 24%;
+    margin-top: -5px;
+    border-radius: 10px;
+}
+

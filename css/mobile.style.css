@@ -107,3 +107,51 @@ html body{
 .arrow,img{
     height: 110px;
 }
+
+
+.brand{
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.brand-content-img img{
+    height: 315px;
+    background: url(../images/mobile/image-transform.jpg);
+}
+.brand-content-text{
+    font-size: 2rem;
+}
+.brand-content-text{
+    height: 440px;
+
+}
+
+.brand-content-text{
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/*audience*/
+.audience{
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.audience-content-img img{
+    height: 315px;
+    background: url(../images/mobile/image-stand-out.jpg);
+}
+.audience-content-text{
+    font-size: 2rem;
+}
+.audience-content-text{
+    height: 440px;
+
+}
+
+.brand-content-text{
+    font-size: 1rem;
+    margin-right: 10px;
+}
