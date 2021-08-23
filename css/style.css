@@ -329,3 +329,15 @@ a {
 .subtitle{
     padding-top: 20%;
 }
+
+.pictures{
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    padding-top: 15%;
+}
+
+.pictures>img{
+    height:500px;
+    flex: 1;
+}

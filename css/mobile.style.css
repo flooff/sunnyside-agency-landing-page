@@ -160,7 +160,7 @@ html body{
     height: 880px;
 }
 
-}
+
 .testimonial-profile{
     margin-top: 10%;
     font-size: 1.6rem;
@@ -181,4 +181,10 @@ html body{
     text-align: center;
     margin: 10px;
 
+}
+
+
+.pictures>img{
+  width: 50%;
+  height: 200px;
 }
