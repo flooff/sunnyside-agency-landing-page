@@ -159,3 +159,26 @@ html body{
     flex-flow: column nowrap;
     height: 880px;
 }
+
+}
+.testimonial-profile{
+    margin-top: 10%;
+    font-size: 1.6rem;
+}
+.subtitle{
+    padding-top: 0;
+}
+.testimonial-title{
+    padding-bottom: 0;
+    font-size: 2rem;
+}
+.testimonial-profile>h2{
+    padding-top: 0;
+    
+}
+.testimonial-profile>p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 10px;
+
+}

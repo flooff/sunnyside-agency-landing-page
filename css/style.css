@@ -232,7 +232,7 @@ a {
 .btn{
     display: block;
     flex-direction: column;
-    font-size: 1.5REM;
+    font-size:1.5rem;
     text-align: left;
     padding-top: 20px;
     text-decoration: none;
@@ -244,7 +244,7 @@ a {
 /* container */
 
 .container{
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-flow: row nowrap;
 }
@@ -291,4 +291,41 @@ a {
      margin-bottom: 3%;
      font-size: 1.1rem;
     line-height: 1.5rem;
+}
+
+
+/*testimonials*/
+.testimonial{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 780px;
+}
+.testimonial-title{
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 50px;
+}
+.testimonial-profile{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+.testimonial-profile>img{
+    border-radius: 100px;
+}
+.testimonial-profile>p{
+    font-size: 1.6rem;
+    color: var(--Very-dark-grayish-blue);
+    text-align: center;
+}
+.testimonial-profile>h2{
+    padding-top: 15%;
+}
+.subtitle{
+    padding-top: 20%;
 }

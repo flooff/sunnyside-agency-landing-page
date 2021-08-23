@@ -149,3 +149,31 @@ html body{
 .container{
     height: 440px;
 }
+
+/*testimonial*/
+.testimonial{
+    padding-top: 10%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 1200px;
+
+}
+.testimonial-profile{
+    margin-top: 10%;
+    font-size: 1.6rem;
+}
+.subtitle{
+    padding-top: 0;
+}
+.testimonial-title{
+    padding-bottom: 0;
+    font-size: 3rem;
+}
+.testimonial-profile>h2{
+    padding-top: 0;
+    
+}
+.testimonial-profile>p{
+    font-size: 2.1rem;
+}
