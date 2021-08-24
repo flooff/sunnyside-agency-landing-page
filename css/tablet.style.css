@@ -177,6 +177,8 @@ html body{
 .testimonial-profile>p{
     font-size: 2.1rem;
 }
-.pictures{
+
+.footer{
     height: 500px;
+    margin-top: 550px;
 }

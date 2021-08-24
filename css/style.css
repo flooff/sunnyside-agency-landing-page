@@ -334,10 +334,52 @@ a {
     display: flex;
     flex-flow: row wrap;
     height: 500px;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .pictures>img{
     height:500px;
     flex: 1;
+}
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 95px;
+    height: 450px;
+    background-color:#90d4c5;
+    align-items: center;
+    
+}
+footer>h2{
+    font-size: 3.5rem;
+    padding-top: 5%;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+    
+footer>h2{
+    color: var(--Dark-desaturated-cyan);
+}
+
+.footer-menu>li{
+    margin: 50px;
+    
+    
+}
+
+.footer-menu>li>a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--Dark-desaturated-cyan);
+}
+
+.icons>i>img{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    
 }
