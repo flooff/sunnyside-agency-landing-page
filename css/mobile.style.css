@@ -183,8 +183,19 @@ html body{
 
 }
 
-
+.pictures{
+    height: 400px;
+    
+}
 .pictures>img{
   width: 50%;
-  height: 200px;
+  height: 198px;
 }
+
+footer>h2{
+    padding-top: 15%;
+}
+.footer-menu>li{
+    margin: 14px;
+}
+

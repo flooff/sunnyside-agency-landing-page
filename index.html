@@ -16,144 +16,126 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar">
+        <nav class="navbar">
           <a href="#" class="nav-logo">sunnyside</a>
-          <ul class="nav-menu">
-              <li class="nav-item">
+            <ul class="nav-menu">
+                <li class="nav-item">
                   <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">Services</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">Project</a>
-              </li>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Project</a>
+                </li>
               <li class="nav-item">
                   <button class="button">CONTACT</button>
               </li>
-          </ul>
+            </ul>
           <div class="hamburger">
               <span class="bar"></span>
               <span class="bar"></span>
               <span class="bar"></span>
           </div>
-      </nav>
-      <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav-menu");
+        </nav>
+        <script>
+          const hamburger = document.querySelector(".hamburger");
+          const navMenu = document.querySelector(".nav-menu");
 
-        hamburger.addEventListener("click", mobileMenu);
+          hamburger.addEventListener("click", mobileMenu);
 
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-          }
+          function mobileMenu() {
+              hamburger.classList.toggle("active");
+              navMenu.classList.toggle("active");
+            }
           const navLink = document.querySelectorAll(".nav-link");
 
           navLink.forEach(n => n.addEventListener("click", closeMenu));
 
           function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-    }
-      </script>
-      <div class="title">
-        <h1>WE  ARE  CREATIVES</h1>
-        <div class="arrow">
-          <img src="./images/icon-arrow-down.svg" alt="">
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+          }
+        </script>
+        <div class="title">
+          <h1>WE  ARE  CREATIVES</h1>
+          <div class="arrow">
+            <img src="./images/icon-arrow-down.svg" alt="">
+          </div>
+        </div>
+    </header>
+    <section>
+      <div class="brand">
+        <div class="brand-content-img">
+          <img src="./images/desktop/image-transform.jpg" alt="egg">
+        </div>
+        <div class="brand-content-text">
+          <h2>Transform your <br> brand</h2>
+          <p>We are a full-service creative agency specializing in <br>helping brands grow fast.
+            Engage your clients trough <br> compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#" class="btn"><span>READ MORE</span></a> 
         </div>
       </div>
-</header>
-<section>
-  <div class="brand">
-    <div class="brand-content-img">
-      <img src="./images/desktop/image-transform.jpg" alt="egg">
-    </div>
-    <div class="brand-content-text">
-      <h2>Transform your <br> brand</h2>
-      <p>We are a full-service creative agency specializing in <br>helping brands grow fast.
-         Engage your clients trough <br> compelling visuals that do most of the marketing for you.
-      </p>
-      <a href="#" class="btn"><span>READ MORE</span></a>
-      
-    </div>
-  </div>
-</section>
-  <section>
-    <div class="audience">
-      <div class="audience-content-img">
-        <img src="./images/desktop/image-stand-out.jpg" alt="egg">
+    </section>
+    <section>
+      <div class="container">
+        <div class="graphic-design">
+          <h3>graphic design</h3>
+          <p>Great design makes you remenber you memorable.We deliver <br>
+             artwork that underscores your brand message <br>
+             and capture potential clients attention
+          </p>
+        </div>
+        <div class="photography">
+          <h3>Photography</h3>
+          <p>
+            Imcrease your credebility by getting the most <br>
+            stunning, high quality photos that improve your <br>
+            buisness image.
+          </p>
+        </div>
+     </div>
+    </section>
+    <section>
+      <div class="testimonial">
+        <h2 class="testimonial-title">CLIENT TESTIMONIALS</h2>
+        <div class="testimonial-profile">
+          <img src="/images/image-emily.jpg" alt="emily">
+          <p class="subtitle">We put our trust un sunnyside and they <br>
+             delivred, making sure our needs were met <br>
+             and deadlines were always hit</p>
+             <h2>Emily R.</h2>
+             <p>Marketing Director</p>
+        </div>
+        <div class="testimonial-profile">
+          <img src="/images/image-thomas.jpg" alt="emily">
+          <p class="subtitle">Sunnyside's enthousiasm coupled with their <br>
+             Keen interest in our brand's success made it <br>
+             a satisfying and enjoyable experience</p>
+             <h2>Thomas S.</h2>
+             <p>Chief operating officer</p>
+        </div>
+        <div class="testimonial-profile">
+          <img src="/images/image-jennie.jpg" alt="emily">
+          <p class="subtitle">Incredible end result! Our sales increased <br>
+             over 400% when we worked with Sunnyside. <br>
+             Higly recomended</p>
+             <h2>Jenny F.</h2>
+             <p>Businees Owner</p>
+        </div>
       </div>
-      <div class="audience-content-text">
-        <h2>Stand out the right <br> audience</h2>
-        <p>
-          Using a collaborative formula of designer,ressearcher,<br>
-          photographers,videographers,and copywriters, we'll <br>
-          build and extand your brand in digital places
-        </p>
-        <a href="#" class="btn"><span>READ MORE</span></a>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-    <div class="graphic-design">
-        <h3>graphic design</h3>
-      <p>Great design makes you remenber you memorable.We deliver <br>
-         artwork that underscores your brand message <br>
-         and capture potential clients attention
-      </p>
-      
-    </div>
-    <div class="photography">
-      
-        <h3>Photography</h3>
-        <p>
-          Imcrease your credebility by getting the most <br>
-          stunning, high quality photos that improve your <br>
-          buisness image.
-        </p>
-    </div>
-   </div>
-  </section>
-  
-  <section>
-    <div class="testimonial">
-      <h2 class="testimonial-title">CLIENT TESTIMONIALS</h2>
-      <div class="testimonial-profile">
-        <img src="/images/image-emily.jpg" alt="emily">
-        <p class="subtitle">We put our trust un sunnyside and they <br>
-           delivred, making sure our needs were met <br>
-           and deadlines were always hit</p>
-           <h2>Emily R.</h2>
-           <p>Marketing Director</p>
-      </div>
-      <div class="testimonial-profile">
-        <img src="/images/image-thomas.jpg" alt="emily">
-        <p class="subtitle">Sunnyside's enthousiasm coupled with their <br>
-           Keen interest in our brand's success made it <br>
-           a satisfying and enjoyable experience</p>
-           <h2>Thomas S.</h2>
-           <p>Chief operating officer</p>
-      </div>
-      <div class="testimonial-profile">
-        <img src="/images/image-jennie.jpg" alt="emily">
-        <p class="subtitle">Incredible end result! Our sales increased <br>
-           over 400% when we worked with Sunnyside. <br>
-           Higly recomended</p>
-           <h2>Jenny F.</h2>
-           <p>Businees Owner</p>
-      </div>
-    </div>
-  </section>
-    <div class="pictures">   
-        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk">      
-        <img src="./images/desktop/image-gallery-orange.jpg" alt="oranges">     
-        <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">     
-        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar">
-  </div>
-  <section>
-    <footer>
+    </section>
+    <section>
+        <div class="pictures">   
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk">      
+          <img src="./images/desktop/image-gallery-orange.jpg" alt="oranges">     
+          <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">     
+          <img id="pict-4" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar">
+        </div>
+    </section>
+    <section>
+      <footer>
         <h2>sunnyside</h2>
         <ul class="footer-menu">
           <li>
@@ -165,9 +147,7 @@
           <li>
             <a href="#"> Projects</a>
           </li>
-
-        </ul>
-        
+        </ul>  
         <div class="icons">
           <i><img src="./images/icon-facebook.svg" alt=""></i>
           <i><img src="./images/icon-instagram.svg" alt=""></i>
@@ -175,6 +155,6 @@
           <i><img src="./images/icon-pinterest.svg" alt=""></i>
         </div> 
     </footer>
-  </section>
+    </section>
   </body>
 </html>
