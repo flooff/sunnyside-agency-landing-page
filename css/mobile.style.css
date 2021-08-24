@@ -119,18 +119,25 @@ html body{
     height: 315px;
     background: url(../images/mobile/image-transform.jpg);
 }
-.brand-content-text{
+.brand-content-text>h2{
+    text-align: center;
     font-size: 2rem;
+    padding-top: 10%;
+}
+
+.brand-content-text{
+    font-size: 1.8rem;
+    text-align: center;
 }
 .brand-content-text{
     height: 440px;
-
 }
 
-.brand-content-text{
-    font-size: 1rem;
-    margin-right: 10px;
+.brand-content-text>p{
+    text-align: center;
 }
+
+
 
 /*audience*/
 .audience{
@@ -144,11 +151,23 @@ html body{
     background: url(../images/mobile/image-stand-out.jpg);
 }
 .audience-content-text{
-    font-size: 2rem;
-}
-.audience-content-text{
     height: 440px;
+}
+.audience-content-text>h2{
+    font-size: 2rem;
+    margin: 0;
+}
+.audience-content-text>p{
+    font-size: 1.2rem;
+    line-height: 1opx;
+    text-align: center;
+}
 
+.audience-content-text>br{
+    display: none;
+}
+.btn{
+    padding-top: 10%;
 }
 
 .brand-content-text{
@@ -159,7 +178,12 @@ html body{
     flex-flow: column nowrap;
     height: 880px;
 }
-
+.graphic-design>p{
+    margin-bottom: 7%;
+}
+.photography>p{
+    margin-bottom: 7%;
+}
 
 .testimonial-profile{
     margin-top: 10%;
@@ -170,17 +194,24 @@ html body{
 }
 .testimonial-title{
     padding-bottom: 0;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    color: var(--Grayish-blue) ;
 }
 .testimonial-profile>h2{
     padding-top: 0;
+    font-size: 2REM;
     
 }
 .testimonial-profile>p{
     font-size: 1.3rem;
     text-align: center;
-    margin: 10px;
-
+    margin: 20px;
+}
+.testimonial-profile>p>br{
+    display: none;
+}
+.testimonial-profile>img{
+    height: 80px;
 }
 
 .pictures{

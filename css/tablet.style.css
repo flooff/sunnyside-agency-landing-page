@@ -101,17 +101,22 @@ html body{
     height: 450px;
 }
 
+
 .brand-content-img img{
     height: 450px;
 }
 
 .brand-content-text h2{
-    font-size: 2.5rem;
+    font-size: 3.4rem;
 }
 .brand-content-text p{
+    text-align: center;
     line-height: 2rem;
-    font-size: 1.5rem;
-    margin-right: 10px;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+.brand-content-text>p>br{
+    display: none;
 }
 
 /*audience*/
@@ -122,6 +127,9 @@ html body{
     margin-right: none;
     
 }
+.audience-content-text>p>br{
+    display: none;
+}
 .audience-content-img img{
     height: 450px;
 }
@@ -130,10 +138,11 @@ html body{
     font-size: 1.5rem;
     margin-right: 10px;
     margin: 20px;
+    text-align: center;
 }
 
 .audience-content-text h2{
-    font-size: 2.3rem;
+    font-size: 3.2rem;
     margin-top: 5px;
 }
 
@@ -151,6 +160,13 @@ html body{
     height: 440px;
 }
 
+.graphic-design>p{
+    margin-bottom: 7%;
+}
+.photography>p{
+    margin-bottom: 7%;
+}
+
 /*testimonial*/
 .testimonial{
     padding-top: 5%;
@@ -161,14 +177,14 @@ html body{
 
 }
 .testimonial-profile{
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 .subtitle{
     padding-top: 0;
 }
 .testimonial-title{
-    padding-top: 5%;
-    font-size: 3rem;
+    padding-top: 3%;
+    font-size: 2.3rem;
     
 }
 
@@ -176,7 +192,7 @@ html body{
     padding-top: 5%;
 }
 .testimonial-profile>p{
-    font-size: 2.1rem;
+    font-size: 1.4rem;
 }
 .pictures{
     height: 300px;
