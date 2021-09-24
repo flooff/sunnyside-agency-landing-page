@@ -125,6 +125,12 @@ html body{
     padding-top: 10%;
 }
 
+@media  screen and (min-width:1076px) {
+    .brand-content-text h2{
+        font-size: 2.4rem;
+    }
+}
+
 .brand-content-text{
     font-size: 1.8rem;
     text-align: center;

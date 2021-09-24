@@ -109,6 +109,11 @@ html body{
 .brand-content-text h2{
     font-size: 3.4rem;
 }
+@media  screen and (max-width:1018px) {
+    .brand-content-text h2{
+        font-size: 2.4rem;
+    }
+}
 .brand-content-text p{
     text-align: center;
     line-height: 2rem;
@@ -145,6 +150,7 @@ html body{
     font-size: 3.2rem;
     margin-top: 5px;
 }
+
 
 .yellow-border{
     background-color: yellow;
