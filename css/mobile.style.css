@@ -128,7 +128,7 @@
   }
 .testimonial h1{
     font-size: 1rem;
-    padding-top: 15%;
+    padding-top: 10%;
     /* padding: 0 20px; */
 }
 
@@ -137,9 +137,11 @@
 }
 .testimonial-profile p{
     padding: 12px 20px;
-    font-size: 20px;
+    font-size: 17px;
 }
-
+.testimonial h3{
+    padding-top: 0;
+}
 
 
  /* gallery */
