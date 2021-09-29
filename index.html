@@ -10,13 +10,13 @@
       <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
       <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
       <link rel="stylesheet" href="./css/style.css">
-      <link rel="stylesheet" media="only screen and (max-width:1366px)" href="./css/tablet.style.css">
+      <link rel="stylesheet" media="only screen and (max-width:1371px)" href="./css/tablet.style.css">
       <link rel="stylesheet" media="only screen and (max-width:700px)" href="./css/mobile.style.css">
       <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
-    <header class="header">
-        <nav class="navbar">
+    <header class="header" role="heading">
+        <nav role="navigation" class="navbar">
           <a href="#" class="nav-logo">sunnyside</a>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -57,47 +57,43 @@
           navMenu.classList.remove("active");
           }
         </script>
-        <div class="title">
+        <div class="title" role="banner">
           <h1>WE  ARE  CREATIVES</h1>
           <div class="arrow">
             <img src="./images/icon-arrow-down.svg" alt="">
           </div>
         </div>
     </header>
-    <section>
-      <div class="brand">
-        <div class="brand-content-img">
-          <img src="./images/desktop/image-transform.jpg" alt="egg">
-        </div>
-        <div class="brand-content-text">
+    <summary>
+      <section class="brand">
+        <aside class="brand-text">
           <h2>Transform your <br> brand</h2>
           <p>We are a full-service creative agency specializing in <br>helping brands grow fast.
             Engage your clients trough <br> compelling visuals that do most of the marketing for you.
           </p>
           <a href="#" class="btn"><span>READ MORE</span></a> 
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="audience">
-        <div class="audience-content-img">
-          <img src="./images/desktop/image-stand-out.jpg" alt="egg">
-        </div>
-        <div class="audience-content-text">
-          <h2>Stand out to the <br>
-              right audience</h2>
-          <p>Using a collaborative formula of <br>
-            designer,researchers, photographers,<br>
-            videographers, and copywriters, we'll <br>
-            build and extend your digital <br>
-            places
+        </aside>
+        <aside class="brand-picture">
+          <img src="./images/desktop/image-transform.jpg" alt="egg">
+        </aside>
+      </section>
+        <section class="audience">
+          <aside class="audience-picture">
+            <img src="./images/desktop/image-stand-out.jpg" alt="egg">
+          </aside>
+          <aside class="audience-text">
+            <h2>Stand out to the <br>right audience</h2>
+            <p>Using a collaborative formula of <br>
+              designer,researchers, photographers,<br>
+              videographers, and copywriters, we'll <br>
+              build and extend your digital <br>
+              places
             </p>
-          
-          <a href="#" class="btn"><span>READ MORE</span></a> 
-        </div>
-      </div>
-    </section>
-    <section>
+            <a href="#" class="btn"><span>READ MORE</span></a> 
+          </aside>
+        </section>
+    </summary>
+    <section  role="contentinfo">
       <div class="container">
         <div class="graphic-design">
           <h3>graphic design</h3>
@@ -115,46 +111,77 @@
           </p>
         </div>
      </div>
-    </section>
-    <section>
-      <div class="testimonial">
-        <h2 class="testimonial-title">CLIENT TESTIMONIALS</h2>
-        <div class="testimonial-profile">
-          <img src="/images/image-emily.jpg" alt="emily">
-          <p class="subtitle">We put our trust un sunnyside and they <br>
-             delivred, making sure our needs were met <br>
-             and deadlines were always hit</p>
-             <h2>Emily R.</h2>
-             <p>Marketing Director</p>
-        </div>
-        <div class="testimonial-profile">
-          <img src="/images/image-thomas.jpg" alt="emily">
-          <p class="subtitle">Sunnyside's enthousiasm coupled with their <br>
-             Keen interest in our brand's success made it <br>
-             a satisfying and enjoyable experience</p>
-             <h2>Thomas S.</h2>
-             <p>Chief operating officer</p>
-        </div>
-        <div class="testimonial-profile">
-          <img src="/images/image-jennie.jpg" alt="emily">
-          <p class="subtitle">Incredible end result! Our sales increased <br>
-             over 400% when we worked with Sunnyside. <br>
-             Higly recomended</p>
-             <h2>Jenny F.</h2>
-             <p>Businees Owner</p>
-        </div>
+    </section> 
+    <main class="testimonial">
+      <h1 class="testimonial-title">CLIENT TESTIMONIALS</h1>
+      <div class="testimonial-profile">
+        <img src="/images/image-emily.jpg" alt="emily">
+        <p class="subtitle">We put our trust un sunnyside and they <br>
+           delivred, making sure our needs were met <br>
+           and deadlines were always hit</p>
+           <h2 class="name">Emily R.</h2>
+           <h3>Marketing Director</h3>
       </div>
+      <div class="testimonial-profile">
+        <img src="/images/image-thomas.jpg" alt="emily">
+        <p class="subtitle">Sunnyside's enthousiasm coupled with their <br>
+           Keen interest in our brand's success made it <br>
+           a satisfying and enjoyable experience</p>
+           <h2 class="name">Thomas S.</h2>
+           <h3>Chief operating officer</>
+      </div>
+      <div class="testimonial-profile">
+        <img src="/images/image-jennie.jpg" alt="emily">
+        <p class="subtitle">Incredible end result! Our sales increased <br>
+           over 400% when we worked with Sunnyside. <br>
+           Higly recomended</p>
+           <h2 class="name">Jenny F.</h2>
+           <h3>Businees Owner</h3>
+      </div>
+    </main>
+    <section class="gallery">
+      <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk">      
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="oranges">     
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">     
+      <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar">
     </section>
-    <section>
-        <div class="pictures">   
+    <footer>
+      <h2>sunnyside</h2>
+        <ul class="footer-menu">
+          <li>
+            <a href="#"> About</a>
+          </li>
+          <li>
+            <a href="#"> Services</a>
+          </li>
+          <li>
+            <a href="#"> Projects</a>
+          </li>
+        </ul>  
+        <div class="icons">
+          <i><img src="./images/icon-facebook.svg" alt=""></i>
+          <i><img src="./images/icon-instagram.svg" alt=""></i>
+          <i><img src="./images/icon-twitter.svg" alt=""></i>
+          <i><img src="./images/icon-pinterest.svg" alt=""></i>
+        </div> 
+    </footer>
+  
+    <!-- <section role="contentinfo">
+      <div class="pictures">
+        <div class="picture picture1"></div>
+        <div class="picture picture2"></div>
+        <div class="picture picture3"></div>
+        <div class="picture picture4"></div>
+      </div> -->
+        <!-- <div class="pictures">   
           <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk">      
           <img src="./images/desktop/image-gallery-orange.jpg" alt="oranges">     
           <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">     
           <img id="pict-4" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar">
-        </div>
-    </section>
+        </div> -->
+    <!-- </section>
     <section>
-      <footer>
+      <footer role="footer">
         <h2>sunnyside</h2>
         <ul class="footer-menu">
           <li>
@@ -174,6 +201,6 @@
           <i><img src="./images/icon-pinterest.svg" alt=""></i>
         </div> 
     </footer>
-    </section>
+    </section> -->
   </body>
 </html>
